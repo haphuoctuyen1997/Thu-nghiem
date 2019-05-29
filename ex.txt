@@ -1,5 +1,229 @@
-git status
-git add *
-git status
-git commit -m"gichu"
-git push
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="topbar">
+      <h1>php 13</h1>
+    </div>
+    <div class="header-position">
+      <!-- end block-header -->
+      <div class="block-menu">
+        <div class="container">
+          <div class="row">
+            <div class="box-menu col-lg-10">
+              <nav id="drop_down">
+                <ul class="lh2-ul">
+                  <li class="active"><a href="">Trang chủ</a></li>
+                  <li><a href="">Giới thiệu</a>
+                    <ul>
+                      <li><a href="">Tôi</a></li>
+                      <li><a href="">Mục tiêu</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="">HTML</a></li>
+                  <li><a href="">CSS</a></li>
+                  <li><a href="">JS</a></li>
+                  <li><a href="">PHP</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <button class="d-lg-none d-md-none" id="menu"><span></span></button>
+        </div>
+      </div>
+      <!-- end block-menu -->
+    </div>
+    <div class="block-slider">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-item active">
+            <a href=""><img style="width: 800px" class="d-block img-fluid animated zoomIn " src="https://aptechvietnam.com.vn/sites/default/files/vuottam_web_pc-01.png" alt="First slide"></a>
+
+          </div>
+          <div class="carousel-item">
+            <a href=""><img style="width: 800px" class="d-block img-fluid animated zoomIn " src="https://aptechvietnam.com.vn/sites/default/files/vuottam_web_pc-01.png" alt="First slide"></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img style="width: 800px" class="d-block img-fluid animated zoomIn " src="https://aptechvietnam.com.vn/sites/default/files/vuottam_web_pc-01.png" alt="First slide"></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img style="width: 800px" class="d-block img-fluid animated zoomIn " src="https://aptechvietnam.com.vn/sites/default/files/vuottam_web_pc-01.png" alt="First slide"></a>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end block-slider -->
+    <div class="block-intro">
+      <div class="container">
+        <p class="lh2-title"> <span>Bán xe TOYOTA</span></p>
+        <div class="row">
+          <div class="item-block col-lg-3">
+            <div class="bg">
+              <div class="img-height">
+                <a class="img" href="">
+                  <img class="img-fluid lh2-img" src="img/a1.jpg" alt="">
+                </a>
+              </div>
+              <div class="info-block">
+                <a class="name" href="">hoc ky 1</a>
+                <p class="lop"> wwindow store</p>
+                <p>html5 , java</p>
+                <p>sql</p>
+              </div>
+              <div class="info-excerpt">
+                <h2>tieu de </h2>
+                <p>A, B, C, D, Đ, E, G, H, I, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y.</p>
+                <p><span>last day</span></p>
+                <div class="bt">
+                  <button>details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
+          <div class="item-block col-lg-3">
+            <div class="bg">
+              <div class="img-height">
+                <a class="img" href="">
+                  <img class="img-fluid lh2-img" src="img/a2.jpg" alt="">
+                </a>
+              </div>
+              <div class="info-block">
+                <a class="name" href="">Bán xe 16 chỗ tại Đà Nẵng</a>
+                <p class="lop"> wwindow store</p>
+                <p>html5 , java</p>
+                <p>sql</p>
+              </div>
+              <div class="info-excerpt">
+                <h2>tieu de </h2>
+                <p>A, B, C, D, Đ, E, G, H, I, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y.</p>
+                <p><span>last day</span></p>
+                <div class="bt">
+                  <button>details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
+          <div class="item-block col-lg-3">
+            <div class="bg">
+              <div class="img-height">
+                <a class="img" href="">
+                  <img class="img-fluid lh2-img" src="img/a3.jpg" alt="">
+                </a>
+              </div>
+              <div class="info-block">
+                <a class="name" href="">Bán xe 16 chỗ tại Đà Nẵng</a>
+                <p class="lop"> wwindow store</p>
+                <p>html5 , java</p>
+                <p>sql</p>
+              </div>
+              <div class="info-excerpt">
+                <h2>tieu de </h2>
+                <p>A, B, C, D, Đ, E, G, H, I, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y.</p>
+                <p><span>last day</span></p>
+                <div class="bt">
+                  <button>details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
+          <div class="item-block col-lg-3">
+            <div class="bg">
+              <div class="img-height">
+                <a class="img" href="">
+                  <img class="img-fluid lh2-img" src="img/a4.jpg" alt="">
+                </a>
+              </div>
+              <div class="info-block">
+                <a class="name" href="">Bán xe 16 chỗ tại Đà Nẵng</a>
+                <p class="lop"> wwindow store</p>
+                <p>html5 , java</p>
+                <p>sql</p>
+              </div>
+              <div class="info-excerpt">
+                <h2>tieu de </h2>
+                <p>A, B, C, D, Đ, E, G, H, I, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y.</p>
+                <p><span>last day</span></p>
+                <div class="bt">
+                  <button>details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end item -->
+
+        </div>
+      </div>
+
+    </div>
+    <!-- end content-slider -->
+    <div class="footer-bg">
+      <div class="block-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <p class="title">GIỚI THIỆU</p>
+              <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul class="lh2-ul">
+                <li><i class="fas fa-map-marker-alt"></i> Q. Thanh Khê, TP Đà Nẵng</li>
+                <li><i class="fas fa-phone"></i> 0905 548 333</li>
+                <li><i class="fas fa-envelope"></i> Email: abc@gmail.com</li>
+                <p><img src="" alt=""></p>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <p class="title">Nav</p>
+              <ul class="lh2-ul">
+                <li><a href="">home</a></li>
+                <li><a href="">html</a></li>
+                <li><a href="">css</a></li>
+                <li><a href="">php</a></li>
+                <li><a href="">contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <p class="title">About</p>
+              <ul class="lh2-ul">
+                <li><a href="">team</a></li>
+                <li><a href="">location</a></li>
+                <li><a href="">privacy</a></li>
+                <li><a href="">term</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="block-copyright">
+        <div class="container">
+          <p>Copyright © 2019 . All Right Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
